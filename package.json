@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-grovepi-ir",
+  "version": "1.0.0",
+  "description": "grove-piで受け取った赤外線のデータをnode-REDへ出力することができるノード",
+  "main": "IR.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryohei0204/node-red-contrib-grovepi-IR.git"
+  },
+  
+    "dependencies": {
+      "node-grovepi":"latest",
+      "i2c-bus" : "1.x",
+      "sleep" : "3.x"
+    },
+  "node-red": {
+    "nodes": {
+      "grovepi": "IR.js"
+    }
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "ryohei0204",
+  "license": "Apache-2.0",
+
+}

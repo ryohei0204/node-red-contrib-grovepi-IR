@@ -1,1 +1,1 @@
-# node-red-contrib-grovepi-IR
+grove-piで受け取った赤外線のデータをnode-REDへ出力することができるノード
