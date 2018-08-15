@@ -14,7 +14,7 @@ module.exports = function(RED){
 
    var node = this;
 
-   if(node.boardConfig){
+   if(node.boardConfig){//ここの処理をがんばって何とかしてみる。
      if(!node.boardConfig.board){
        node.boardConfig.board = new GrovePiBoard();
        node.boardConfig.board.init();
